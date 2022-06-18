@@ -1,1 +1,42 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+body {
+  background-color: Black;
+}
+
+
+.h1 {
+  margin-top: 100px;
+  color: #0dcaf0;
+  font-family: 'Anton', sans-serif;
+  text-transform: uppercase;
+}
+
+
+.h2 {
+  color: white;
+  font-family: 'Anton', sans-serif;
+  text-transform: uppercase;
+}
+
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+
+#excuse {
+  padding-top: 20px;
+}
+
+.btn {
+  margin: 25px;
+  padding: 10px 25px 10px 25px;
+}
+
+.btn:hover {
+background-color: white;
+color: black;
+}
+
+.footer {
+  color: white;
+}
